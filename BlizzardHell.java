@@ -7,7 +7,7 @@ import net.minecraft.sounds.Music;
 public class BlizzardHell {
     public static Biome create() {
         return new Biome.BiomeBuilder()
-            .temperature(-3.5f)
+            .temperature(-4.55f)
             .downfall(1.0f)
             .precipitation(Biome.Precipitation.SNOW)
             .temperatureAdjustment(Biome.TemperatureModifier.NONE)
