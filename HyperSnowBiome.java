@@ -22,7 +22,7 @@ public class HyperSnowBiomes {
     private static Biome silentGlacier() {
         return new Biome.BiomeBuilder()
             .precipitation(Biome.Precipitation.SNOW)
-            .temperature(-4.2f)
+            .temperature(-5.2f)
             .downfall(3.4f)
             .temperatureAdjustment(Biome.TemperatureModifier.NONE)
             .specialEffects(new BiomeSpecialEffects.Builder()
