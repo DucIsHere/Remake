@@ -8,7 +8,7 @@ public class EverestSummit {
     public static Biome create() {
         return new Biome.BiomeBuilder()
             .precipitation(Biome.Precipitation.SNOW)
-            .temperature(-4.0f)
+            .temperature(-5.0f)
             .downfall(1.0f)
             .temperatureAdjustment(Biome.TemperatureModifier.NONE)
             .biomeCategory(Biome.BiomeCategory.EXTREME_HILLS)
